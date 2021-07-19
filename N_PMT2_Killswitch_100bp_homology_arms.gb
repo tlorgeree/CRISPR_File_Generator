@@ -1,0 +1,141 @@
+LOCUS       Exported                2540 bp DNA     circular SYN 16-JUL-2021
+DEFINITION  synthetic circular DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 2540)
+  AUTHORS   Trial User
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 16, 2021 from SnapGene 5.3.2
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..2540
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    1..40
+                     /label=L1
+     misc_feature    41..455
+                     /label=PMT2 100bp Homology arm Death Star
+     misc_feature    41..140
+                     /label=PMT2_100BP_Upstream
+     primer_bind     111..170
+                     /label=primer_test_fwd
+     misc_feature    141..355
+                     /label=DeathStar
+     primer_bind     complement(326..385)
+                     /label=primer_test_rev
+     misc_feature    356..455
+                     /label=PMT2_100BP_Downstream
+     misc_feature    456..495
+                     /label=L4
+     promoter        496..915
+                     /label=pTEF1
+                     /note="TEF1 promoter"
+     misc_feature    916..955
+                     /label=L5
+     terminator      916..948
+                     /label=CYC1 transcription terminator
+     misc_feature    949..988
+                     /label=L6
+     promoter        961..1028
+                     /label=EM7 promoter
+     promoter        963..1010
+                     /label=EM7 promoter
+                     /note="synthetic bacterial promoter "
+     terminator      989..1261
+                     /label=CYC1 transcription terminator
+     terminator      1009..1256
+                     /gene="S. cerevisiae CYC1"
+                     /label=CYC1 terminator
+                     /note="transcription terminator for CYC1"
+     CDS             1029..1403
+                     /codon_start=1
+                     /gene="Sh ble from Streptoalloteichus hindustanus"
+                     /product="antibiotic-binding protein"
+                     /label=BleoR
+                     /note="confers resistance to bleomycin, phleomycin, and 
+                     Zeocin(TM)"
+                     /translation="MAKLTSAVPVLTARDVAGAVEFWTDRLGFSRDFVEDDFAGVVRDD
+                     VTLFISAVQDQVVPDNTLAWVWVRGLDELYAEWSEVVSTNFRDASGPAMTEIGEQPWGR
+                     EFALRDPAGNCVHFVAEEQD"
+     CDS             1029..1403
+                     /label=Zeo(R)
+     rep_origin      complement(1272..1945)
+                     /direction=LEFT
+                     /label=pUC origin
+     rep_origin      complement(1331..1919)
+                     /direction=LEFT
+                     /label=ori
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of 
+                     replication"
+     terminator      1404..1448
+                     /label=CYC1 transcription terminator
+     misc_feature    1449..1488
+                     /label=L6
+     terminator      1489..1761
+                     /label=CYC1 transcription terminator
+     terminator      1509..1756
+                     /gene="S. cerevisiae CYC1"
+                     /label=CYC1 terminator
+                     /note="transcription terminator for CYC1"
+     rep_origin      complement(1772..2445)
+                     /direction=LEFT
+                     /label=pUC origin
+     rep_origin      complement(1831..2419)
+                     /direction=LEFT
+                     /label=ori
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of 
+                     replication"
+     promoter        2000
+                     /label=AOX1 promoter
+     misc_feature    2001..2040
+                     /label=L8
+     misc_feature    2501..2540
+                     /label=L8
+ORIGIN
+        1 catactatca cgtcggcgac caccagtgag ttactagagc ttttcactcg tatgtacaaa
+       61 attgggatca acaaccacgt cgtttgggat gaagctcact tcggaaagtt tggctcctac
+      121 tatctcagac acgagttcta taagtaagta aattgcttga agctttaatt tattttatta
+      181 acataataat aatacaagca tgatatattt gtattttgtt cgttaacatt gatgttttct
+      241 tcatttactg ttattgtttg taactttgat cgatttatct tttctacttt actgtaatat
+      301 ggctggcggg tgagccttga actccctgta ttactttacc ttgctattac ttaatttggg
+      361 taagatgttg gtcggtctat ctggctacat tgccggttac aatggctcct gggatttccc
+      421 ctccggtcaa gagtaccctg actatattga ttacggactc tgtactgagt tctataaacg
+      481 agccattgca tacgacccac acaccatagc ttcaaaatgt ttctactcct tttttactct
+      541 tccagatttt ctcggactcc gcgcatcgcc gtaccacttc aaaacaccca agcacagcat
+      601 actaaatttt ccctctttct tcctctaggg tgtcgttaat tacccgtact aaaggtttgg
+      661 aaaagaaaaa agagaccgcc tcgtttcttt ttcttcgtcg aaaaaggcaa taaaaatttt
+      721 tatcacgttt ctttttcttg aaattttttt ttttagtttt tttctctttc agtgacctcc
+      781 attgatattt aagttaataa acggtcttca atttctcaag tttcagtttc atttttcttg
+      841 ttctattaca acttttttta cttcttgttc attagaaaga aagcatagca atctaatcta
+      901 agttttaatt acaaagaaag cgacccgagg ttctaaccgc cgactttggc ggaaagggcg
+      961 gtgttgacaa ttaatcatcg gcatagtata tcggcatagt ataatacgac aaggtgagga
+     1021 actaaaccat ggccaagttg accagtgccg ttccggtgct caccgcgcgc gacgtcgccg
+     1081 gagcggtcga gttctggacc gaccggctcg ggttctcccg ggacttcgtg gaggacgact
+     1141 tcgccggtgt ggtccgggac gacgtgaccc tgttcatcag cgcggtccag gaccaggtgg
+     1201 tgccggacaa caccctggcc tgggtgtggg tgcgcggcct ggacgagctg tacgccgagt
+     1261 ggtcggaggt cgtgtccacg aacttccggg acgcctccgg gccggccatg accgagatcg
+     1321 gcgagcagcc gtgggggcgg gagttcgccc tgcgcgaccc ggccggcaac tgcgtgcact
+     1381 tcgtggccga ggagcaggac tgacacgtcc gacggcggcc cacgggtccc aggcctcgga
+     1441 gatccgtcgg tttcactcag gaagcagaca ctgattgaca cggtttagcc ccttttcctt
+     1501 tgtcgatatc atgtaattag ttatgtcacg cttacattca cgccctcccc ccacatccgc
+     1561 tctaaccgaa aaggaaggag ttagacaacc tgaagtctag gtccctattt atttttttat
+     1621 agttatgtta gtattaagaa cgttatttat atttcaaatt tttctttttt ttctgtacag
+     1681 acgcgtgtac gcatgtaaca ttatactgaa aaccttgctt gagaaggttt tgggacgctc
+     1741 gaaggcttta atttgcaagc tggagaccaa catgtgagca aaaggccagc aaaaggccag
+     1801 gaaccgtaaa aaggccgcgt tgctggcgtt tttccatagg ctccgccccc ctgacgagca
+     1861 tcacaaaaat cgacgctcaa gtcagaggtg gcgaaacccg acaggactat aaagatacca
+     1921 ggcgtttccc cctggaagct ccctcgtgcg ctctcctgtt ccgaccctgc cgcttaccgg
+     1981 atacctgtcc gcctttctcc cttcgggaag cgtggcgctt tctcaatgct cacgctgtag
+     2041 gtatctcagt tcggtgtagg tcgttcgctc caagctgggc tgtgtgcacg aaccccccgt
+     2101 tcagcccgac cgctgcgcct tatccggtaa ctatcgtctt gagtccaacc cggtaagaca
+     2161 cgacttatcg ccactggcag cagccactgg taacaggatt agcagagcga ggtatgtagg
+     2221 cggtgctaca gagttcttga agtggtggcc taactacggc tacactagaa ggacagtatt
+     2281 tggtatctgc gctctgctga agccagttac cttcggaaaa agagttggta gctcttgatc
+     2341 cggcaaacaa accaccgctg gtagcggtgg tttttttgtt tgcaagcagc agattacgcg
+     2401 cagaaaaaaa ggatctcaag aagatccttt gatcttttct acggggtctg acgctcagtg
+     2461 gaacgaaaac tcacgttaag ggattttggt catgagatca gacccgatga actacagaac
+     2521 actgcaagaa tctctacctg
+//
