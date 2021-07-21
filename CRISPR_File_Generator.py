@@ -1,8 +1,6 @@
-import sys
 import csv
-import re
 import os
-from collections import defaultdict
+
 
 #Input: Directory for Spreeadsheet
 #Input: Spreadsheet of genes, markers
@@ -851,7 +849,7 @@ FEATURES             Location/Qualifiers
     if OS == "W":
         output_file = directory + "\\{}{}_{}_{}.gb".format(gene_i, str(guide_num_curr_int), gene_gq, marker)
     if OS == "U":
-        output_file = directory + "/{}{}_{}_{}.gb".format(gene_i, str(guide_num_curr), gene_gq, marker)
+        output_file = directory + "/{}{}_{}_{}.gb".format(gene_i, str(guide_num_curr_int), gene_gq, marker)
     r = open(output_file, 'w')
     r.write(genbank_full)
     r.close()
@@ -1270,7 +1268,7 @@ if (OS == 'U'):
     if not (os.path.exists(active_dir + "/output_files")):
             print("Creating output_files folder. Created files will be stored here.")
             os.mkdir(active_dir + "/output_files")
-            output_folder = active_dir + "\\output_files"
+            output_folder = active_dir + "/output_files"
     else:
             print("output_files folder found. Created files will be stored here.")
             output_folder = active_dir + "/output_files"
@@ -1410,8 +1408,8 @@ for iteration, i in enumerate(target_gene):
         else: output_dir = active_dir + "\\output_files\\{}_{}".format(gene_i, vec_marker_i)
 
     elif OS == "U":
-        if not (os.path.exists(active_dir + "/output_files\\{}_{}".format(gene_i, vec_marker_i))):
-            output_dir = active_dir + "/output_files\\{}_{}".format(gene_i, vec_marker_i)
+        if not (os.path.exists(active_dir + "/output_files/{}_{}".format(gene_i, vec_marker_i))):
+            output_dir = active_dir + "/output_files/{}_{}".format(gene_i, vec_marker_i)
             os.mkdir(output_dir)
         else: output_dir = active_dir + "/output_files/{}_{}".format(gene_i, vec_marker_i)
 
